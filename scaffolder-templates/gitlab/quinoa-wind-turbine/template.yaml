@@ -36,7 +36,7 @@ spec:
           title: Cluster Id
           type: string
           description: Id of the cluster
-          default: .apps.cluster-5g75j.sandbox1476.opentlc.com
+          default: .apps.cluster-n7lt8.sandbox3018.opentlc.com
     - title: Provide Image Registry Information
       required:
         - image_registry
@@ -72,7 +72,7 @@ spec:
                   title: Image Host
                   type: string
                   description: Host for storing image
-                  default: quay-5g75j.apps.cluster-5g75j.sandbox1476.opentlc.com
+                  default: quay-n7lt8.apps.cluster-n7lt8.sandbox3018.opentlc.com
                 image_organization:
                   title: Organization
                   type: string
@@ -95,7 +95,7 @@ spec:
               title: Repo Host
               type: string
               description: Your SCM host
-              default: gitlab-gitlab.apps.cluster-5g75j.sandbox1476.opentlc.com
+              default: gitlab-gitlab.apps.cluster-n7lt8.sandbox3018.opentlc.com
             owner:
               title: Repo Owner
               type: string
